@@ -1,0 +1,48 @@
+#container-bar {
+    background-color: var(--color-barra-primary);
+    /* width: 90vh; */
+    height: 80px;
+}
+
+#container-bar nav {
+    padding: 11px 100px 13px 100px;
+}
+
+#container-bar nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    float: right;
+    width: 450px;
+    padding-top: 15px;
+}
+
+#container-bar nav ul li{
+    list-style: none;
+}
+
+#container-bar nav ul li a{
+    color: var(--color-font-branco);
+    text-decoration: none;
+
+    font: 300 1rem 'Inter';
+}
+
+#container-bar nav img{
+    padding-top: 11px;
+}
+
+#container-bar nav ul .btn-login{
+    background: var(--color-btn-roxo);
+    color: var(--color-font-branco);
+
+    border-radius: 5px;
+    width: 104px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+
+    font: 300 1rem 'Inter';
+
+}
+

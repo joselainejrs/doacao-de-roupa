@@ -1,0 +1,33 @@
+main .content-home {
+    width: 1181px;
+    margin: auto;
+}
+
+main .content-home .campo-ajuda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+main .content-home .ajuda {
+    color: var(--color-font-verde-claro);
+
+    font: 700 1.4rem 'Poppins';
+
+}
+
+main .content-home .btn-ajuda {
+    border-radius: 5px;
+
+    background-color: var(--color-btn-verde);
+    color: var(--color-font-branco);
+    
+    width: 159px;
+    height: 44px;
+    margin-top: 10px;
+}
+
+main .content-home img {
+    width: 30rem;
+}

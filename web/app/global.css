@@ -1,0 +1,43 @@
+/* app css stylesheet */
+
+:root{
+  /* barra */
+  --color-barra-primary: #078080;
+  --color-barra-secondary: #FFD6A5;
+  /* fonts */
+  --color-font-azul: #0261FF;                 
+  --color-font-branco: #FFFFFF; 
+  --color-font-preto: #000000;
+  --color-font-preto-form: #302F2F;
+  --color-font-verde-claro: #5DC5C5;
+  /* button */
+  --color-btn-verde: #078080;
+  --color-btn-roxo: #7433FF;
+ 
+  font-size: 60%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html,body, #root{
+  height: 100vh;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media(min-width: 700px){
+  :root{
+      font-size:62.5%;
+  }
+
+  
+}

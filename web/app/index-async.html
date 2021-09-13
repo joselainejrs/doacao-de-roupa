@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    [ng-cloak] {
+      display: none;
+    }
+  </style>
+  <script>
+    $script([
+      'lib/angular/angular.js',
+      'lib/angular-route/angular-route.js',
+      'app.js',
+      'views/cadastro/cadastro.js',
+      'views/home/home.js',
+      'diretiva/bar/bar.js',
+      'diretiva/card/card.js',
+      'core/version/version.js',
+      'core/version/version-directive.js',
+      'core/version/interpolate-filter.js'
+    ], function () {
+    });
+  </script>
+  <title>Doe Roupa</title>
+  <link rel="stylesheet" href="global.css">
+</head>
+
+<body ng-cloak>
+
+  <div ng-view></div>
+</body>
+
+</html>

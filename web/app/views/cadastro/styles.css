@@ -46,18 +46,18 @@ main .conteudo-cadastro .ajuda img{
     margin-top: 30px;
 }
 
-main .conteudo-cadastro .form-conjunto form .linha{
+main .conteudo-cadastro form .linha{
     margin-top: 26px;
 }
 
-main .conteudo-cadastro .form-conjunto form hr{
+main .conteudo-cadastro form hr{
     background-color: var(--color-hr-cinza);
 
     width: 326px;
     margin: auto;
 }
 
-main .conteudo-cadastro .form-conjunto form{
+main .conteudo-cadastro form{
     background-color: var(--color-card-branco);
 
     width: 400px;
@@ -71,53 +71,63 @@ main .conteudo-cadastro .form-conjunto form{
     align-items: center;
 }
 
-main .conteudo-cadastro .form-conjunto form h3{
+main .conteudo-cadastro form h3{
     font: 700 1.6rem 'Inter';
     margin-top: 37px;
     padding-left: 32px;
 
 }
 
-main .conteudo-cadastro .form-conjunto form .input-cadastro{
+main .conteudo-cadastro form .input-cadastro{
     margin: auto;
 }
 
-main .conteudo-cadastro .form-conjunto form .input-cadastro input{
+main .conteudo-cadastro form .input-cadastro input{
     background-color: var(--color-input-cinza);
 
     margin: 20px 0px 0px 32px;
 
     border-radius: 4px 4px 0px 0px;
     border: 0;
+
+    /* cores e espaçamento dentro do input */
+    color: var(--color-font-preto-form);
+    font: 500 1.4rem 'Roboto';
+
+    padding-left: 10px;
+
+    box-sizing: border-box;
 }
 
-main .conteudo-cadastro .form-conjunto form .input-cadastro .input-central{
+main .conteudo-cadastro form .input-cadastro .input-central{
     width: 327px;
     height: 54px;
 }
 
-main .conteudo-cadastro .form-conjunto form .input-cadastro .input-primaria-1{
+main .conteudo-cadastro form .input-cadastro .input-primaria-1{
     width: 94px;
     height: 54px;
 }
 
-main .conteudo-cadastro .form-conjunto form .input-cadastro .input-primaria-2{
+main .conteudo-cadastro form .input-cadastro .input-primaria-2{
     width: 199px;
     height: 54px;
 }
+main .conteudo-cadastro form .input-cadastro textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
 
-main .conteudo-cadastro .form-conjunto form .input-cadastro input::placeholder {
+main .conteudo-cadastro form .input-cadastro input::placeholder {
     font: 500 1.4rem 'Roboto';
     color: var(--color-font-preto-form);
-
-    padding: 10px;
 }
 
-main .conteudo-cadastro .form-conjunto form .cadastrar{
-    margin: 32px;
+main .conteudo-cadastro form .cadastrar{
+    margin: 33px;
 }
 
-main .conteudo-cadastro .form-conjunto form button{
+main .conteudo-cadastro form button{
     background-color: var(--color-btn-roxo);
     color: var(--color-font-branco);
 

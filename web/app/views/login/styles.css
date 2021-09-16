@@ -43,7 +43,7 @@ main .conteudo-login .ajuda .btn-ajuda-fundo a {
     color: var(--color-font-branco);
 }
 
-main .conteudo-login .form-conjunto form{
+main .conteudo-login form{
     background-color: var(--color-card-branco);
 
     width: 400px;
@@ -57,7 +57,7 @@ main .conteudo-login .form-conjunto form{
     align-items: center;
 }
 
-main .conteudo-login .form-conjunto form h3{
+main .conteudo-login form h3{
     font: 500 1.6rem 'Inter';
 
     text-align: center;
@@ -66,45 +66,54 @@ main .conteudo-login .form-conjunto form h3{
 
 }
 
-main .conteudo-login .form-conjunto form .input-login{
+main .conteudo-login form .input-login{
     margin: auto;
 }
 
-main .conteudo-login .form-conjunto form .input-login input{
-    background-color: var(--color-input-cinza);
-
-    /* border-radius: var(--color-input-cinza); */
-
+main .conteudo-login form .input-login input{
     width: 327px;
     height: 54px;
 
-    margin: 20px 10px 0px 32px;
+    background-color: var(--color-input-cinza);
+
+    margin: 20px 0px 0px 32px;
 
     border-radius: 4px 4px 0px 0px;
     border: 0;
+
+    /* cores e espaçamento dentro do input */
+    color: var(--color-font-preto-form);
+    font: 500 1.4rem 'Roboto';
+
+    padding-left: 10px;
+
+    box-sizing: border-box;
 }
 
-main .conteudo-login .form-conjunto form .input-login input::placeholder {
+main .conteudo-login form .input-login textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+main .conteudo-login form .input-login input::placeholder {
     font: 500 1.4rem 'Roboto';
     color: var(--color-font-preto-form);
-
-    padding: 10px;
 }
 
-main .conteudo-login .form-conjunto form .esqueci-senha{
+main .conteudo-login form .esqueci-senha{
     font: 300 0.9rem 'Roboto';
     color: var(--color-font-azul);
     margin: 5px 0px 25px 32px;
 }
 
-main .conteudo-login .form-conjunto form .cadastramento .opcao{
+main .conteudo-login form .cadastramento .opcao{
     font: 700 1.4rem 'Roboto';
 
     color: var(--color-font-preto);
     margin: 0px 0px 30px 0px;
     text-align: center;
 }
-main .conteudo-login .form-conjunto form .cadastramento .cadastro-conta{
+main .conteudo-login form .cadastramento .cadastro-conta{
     display: flex;
     align-items: center;
 
@@ -115,27 +124,29 @@ main .conteudo-login .form-conjunto form .cadastramento .cadastro-conta{
 
     margin: auto;
 
-    padding-left:50px ;
+    padding-left:50px;
+
+    border-radius: 2px;
+
 }
 
-main .conteudo-login .form-conjunto form .cadastramento .cadastro-conta p{
+main .conteudo-login form .cadastramento .cadastro-conta p{
     font: 700 1rem 'Roboto';
     color: var(--color-card-branco);
 
     margin-left: 20px;
 }
 
-main .conteudo-login .form-conjunto form .cadastramento .link{
+main .conteudo-login form .cadastramento .link{
     padding: 30px 0px 0px 0px;
 }
 
-main .conteudo-login .form-conjunto form .cadastramento .link a{
+main .conteudo-login form .cadastramento .link a{
     font: 700 1.2rem 'Roboto';
     color: var(--color-font-azul);
 
     padding: 30px 0px 0px 145px;
 
     text-decoration: none;
-
 }
 

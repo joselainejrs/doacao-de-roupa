@@ -5,55 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Home</title>
     <link rel="stylesheet" href="views/home/styles.css">
 </head>
 
 <body>
     <div>
         <div id="container-home">
-            <nav>
-                <bar-directive></bar-directive>
-            </nav>
             <main>
-                <div class="content-home">
+                <div class="conteudo-home">
                     <section class="campo-ajuda">
                         <div class="ajuda">
                             <h4>Faça parte desssa força</h4>
                             <h4>#AjudeQuemPrecisa</h4>
-                            <a href="#" class="btn-ajuda">quero ajudar</a>
+                            <div class="btn-ajuda-fundo">
+                                <a href="#" class="btn-ajuda">quero ajudar</a>
+                            </div>
                         </div>
-                        <div class="img-ajuda">
-                            <img src="assets/img/Hands - Unlock 1.png" alt="Imagem de Ajuda">
+                        <div>
+                            <img class="img-ajuda" src="assets/img/Hands - Unlock 1.png" alt="Imagem de Ajuda">
                         </div>
                     </section>
                     <section class="acao">
                         <hr>
-                        <h3>Qual é nossa Ação</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus at egestas ultricies accumsan
+                        <h3 class="titulo-acao"> Qual é nossa Ação</h3>
+                        <p class="txt-acao">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus at egestas
+                            ultricies accumsan
                             nunc, vitae aenean faucibus. Et leo fringilla at vel. Libero et in ultrices vitae arcu,
                             tortor. Rhoncus maecenas mauris, dolor magna tincidunt.</p>
                         <hr>
                     </section>
-                    <section class="campanhas ativas">
-                        <h3>Campanhas ativas</h3>
-                        <card-directive></card-directive>
+                    <section class="campanhas">
+                        <h3 class="titulo-campanhas">Campanhas ativas</h3>
+
+                        <div class="card-campanhas">
+                            <card-directive></card-directive>
+                            <card-directive></card-directive>
+                            <card-directive></card-directive>
+                        </div>
                     </section>
                 </div>
             </main>
 
-            <footer>
-                <img src="" alt="">
-                <div class="txt-doe">
-                    <p>Como ajudar?</p>
-                    <p>Campanhas Ativas</p>
-                    <p>Transparência</p>
-                    <p>Seja parceiro</p>
-                </div>
-                <div class="contato">
-                    <p>Fale com a gente</p>
-                    <p>Whatsapp</p>
-                    <p>Email</p>
+            <footer class="barra-info">
+                <div class="barra-espaco">
+                    <img src="assets/img/logoBar.png" alt="Logo">
+                    <div class="txt-info-barra">
+                        <p>Como ajudar?</p>
+                        <p>Campanhas Ativas</p>
+                        <p>Transparência</p>
+                        <p>Seja parceiro</p>
+                    </div>
+                    <div class="txt-info-barra">
+                        <p>Fale com a gente</p>
+                        <p>Whatsapp</p>
+                        <p>Email</p>
+                    </div>
                 </div>
             </footer>
         </div>

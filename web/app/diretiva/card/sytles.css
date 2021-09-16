@@ -1,1 +1,110 @@
+main .conteudo-campanhas .campo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    background-color: var(--color-card-laranja);
+    width: 343px;
+    height: 117px;
+
+    margin: auto;
+
+    border-radius: 5px 5px 0px 0px;
+
+}
+
+main .conteudo-campanhas .img-circulo{
+    width: 45%;
+}
+
+main .conteudo-campanhas .conteudo-geral{
+    /* font: 300 12px 'Inter'; */
+    color: var(--color-font-preto); 
+
+    width: 343px;
+    height: 358px;
+
+    border-radius: 0px 0px 5px 5px;
+
+    box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.27), 0px 23.2735px 24.1177px rgba(0, 0, 0, 0.215913), 0px 4.84314px 10.0172px rgba(0, 0, 0, 0.169756), 0px -0.42211px 3.62304px rgba(0, 0, 0, 0.115395);
+
+    margin: auto;
+
+}
+
+main .conteudo-campanhas .conteudo-geral h6{
+    font: 700 1.2rem 'Inter';
+    margin-bottom: 30px;
+
+    padding-top: 30px;
+
+    text-align: center;
+}
+
+main .conteudo-campanhas .conteudo-geral .info-descricao{
+    display: flex;
+    align-items: center;
+
+    margin: 20px 0px 20px 14px;
+
+    width: 300px;
+
+    font: 300 12px 'Inter';
+
+}
+
+main .conteudo-campanhas .conteudo-geral .info-descricao .img-descricao{
+    margin-right: 10px;
+}
+
+main .conteudo-campanhas .conteudo-geral .info-junto-atencao{
+    background-color: var(--color-card-laranja);
+
+    width: 320px;
+    height: 50px;
+
+    margin: auto;
+
+    border-radius: 8px;
+
+    font: 500 12px 'Inter';
+
+}
+
+main .conteudo-campanhas .conteudo-geral .info-junto-atencao .info-atencao{
+    display: flex;
+    align-items: center;
+
+    padding: 8px 0px 0px 5px;
+
+    width: 320px;
+
+}
+
+main .conteudo-campanhas .conteudo-geral .info-junto-atencao .info-atencao .img-descricao{
+    margin-right: 10px;
+}
+
+main .conteudo-campanhas .conteudo-geral .local{
+    background-color: var(--color-btn-verde);
+
+    padding: 13px 13px 13px 23px;
+
+    width: 300px;
+    height: 43px;
+
+    margin: 35px 20px 20px 20px;
+
+    border-radius: 5px;
+
+}
+main .conteudo-campanhas .conteudo-geral .local a{
+    text-decoration: none;
+
+    margin: auto;
+
+    color: var(--color-font-branco);
+
+    font: 700 12px 'Inter';
+
+}

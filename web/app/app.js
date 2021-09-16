@@ -4,6 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.views.home',
+  'myApp.views.login',
   'myApp.views.cadastro',
   'myApp.diretiva.bar',
   'myApp.diretiva.card',
@@ -22,6 +23,11 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
     controllerAS:'wm',
     controller: 'CadastroController'
   }),
+  $routeProvider.when('/login', {
+    templateUrl: 'views/login/login.html',
+    controllerAS:'wm',
+    controller: 'LoginController'
+  }),
   $routeProvider.when('/bar', {
     templateUrl: 'diretiva/bar/bar.html',
     controllerAS:'wm',
@@ -34,5 +40,12 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
   }),
 
   $routeProvider.otherwise({redirectTo: '/home'});
+}])
+
+// tela de bar
+.directive('barDirective', [function (){
+    return{
+        templateUrl: 'diretiva/bar/bar.html'
+    };
 }]);
 

@@ -4,6 +4,8 @@
   /* barra */
   --color-barra-primary: #078080;
   --color-barra-secondary: #FFD6A5;
+  /* fundo */
+  --color-fundo-primary: #5FA5A5;
   /* fonts */
   --color-font-azul: #0261FF;                 
   --color-font-branco: #FFFFFF; 
@@ -13,6 +15,15 @@
   /* button */
   --color-btn-verde: #078080;
   --color-btn-roxo: #7433FF;
+  --color-btn-azul: #0261FF;
+  /* card */
+  --color-card-laranja: #FFD6A5;
+  --color-card-branco: #FFFFFF;
+  /* input */
+  --color-input-cinza: #E9E9E9;
+  /* hr */
+  --color-hr-cinza: #C4C4C4
+;
  
   font-size: 60%;
 }

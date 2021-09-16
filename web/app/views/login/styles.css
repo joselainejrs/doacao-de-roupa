@@ -1,0 +1,141 @@
+#container-login{
+    padding-top:50px;
+
+    height: 100vh;
+    background-color: var(--color-fundo-primary);
+}
+
+main .conteudo-login {
+    width: 1181px;  
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+
+}
+
+main .conteudo-login .ajuda {
+    color: var(--color-font-branco);
+
+    font: 300 2rem 'Inter';
+}
+
+main .conteudo-login .ajuda .btn-ajuda-fundo {
+    border-radius: 5px;
+
+    background-color: var(--color-btn-roxo);
+
+    width: 15rem;
+    height: 3.6rem;
+
+    padding: 6px;
+    margin-top: 30px;
+
+
+    text-align: center;
+}
+
+main .conteudo-login .ajuda .btn-ajuda-fundo a {
+    text-decoration: none;
+
+    color: var(--color-font-branco);
+}
+
+main .conteudo-login .form-conjunto form{
+    background-color: var(--color-card-branco);
+
+    width: 400px;
+    height: 492px;
+
+    border-radius: 20px;
+
+    margin: auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+main .conteudo-login .form-conjunto form h3{
+    font: 500 1.6rem 'Inter';
+
+    text-align: center;
+
+    margin-top: 26px;
+
+}
+
+main .conteudo-login .form-conjunto form .input-login{
+    margin: auto;
+}
+
+main .conteudo-login .form-conjunto form .input-login input{
+    background-color: var(--color-input-cinza);
+
+    /* border-radius: var(--color-input-cinza); */
+
+    width: 327px;
+    height: 54px;
+
+    margin: 20px 10px 0px 32px;
+
+    border-radius: 4px 4px 0px 0px;
+    border: 0;
+}
+
+main .conteudo-login .form-conjunto form .input-login input::placeholder {
+    font: 500 1.4rem 'Roboto';
+    color: var(--color-font-preto-form);
+
+    padding: 10px;
+}
+
+main .conteudo-login .form-conjunto form .esqueci-senha{
+    font: 300 0.9rem 'Roboto';
+    color: var(--color-font-azul);
+    margin: 5px 0px 25px 32px;
+}
+
+main .conteudo-login .form-conjunto form .cadastramento .opcao{
+    font: 700 1.4rem 'Roboto';
+
+    color: var(--color-font-preto);
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+main .conteudo-login .form-conjunto form .cadastramento .cadastro-conta{
+    display: flex;
+    align-items: center;
+
+    background-color: var(--color-btn-azul);
+
+    width: 317px;
+    height: 44px;
+
+    margin: auto;
+
+    padding-left:50px ;
+}
+
+main .conteudo-login .form-conjunto form .cadastramento .cadastro-conta p{
+    font: 700 1rem 'Roboto';
+    color: var(--color-card-branco);
+
+    margin-left: 20px;
+}
+
+main .conteudo-login .form-conjunto form .cadastramento .link{
+    padding: 30px 0px 0px 0px;
+}
+
+main .conteudo-login .form-conjunto form .cadastramento .link a{
+    font: 700 1.2rem 'Roboto';
+    color: var(--color-font-azul);
+
+    padding: 30px 0px 0px 145px;
+
+    text-decoration: none;
+
+}
+

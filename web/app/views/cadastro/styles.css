@@ -1,0 +1,132 @@
+#container-cadastro{
+    padding-top:50px;
+    height: 80rem;
+    background-color: var(--color-fundo-primary);
+}
+
+main .conteudo-cadastro {
+    width: 1181px;  
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: auto;
+
+}
+
+main .conteudo-cadastro .ajuda {
+    color: var(--color-font-branco);
+
+    font: 300 2rem 'Inter';
+}
+
+main .conteudo-cadastro .ajuda .btn-ajuda-fundo {
+    border-radius: 5px;
+
+    background-color: var(--color-btn-roxo);
+
+    width: 15rem;
+    height: 3.6rem;
+
+    padding: 6px;
+    margin-top: 30px;
+
+
+    text-align: center;
+}
+
+main .conteudo-cadastro .ajuda .btn-ajuda-fundo a {
+    text-decoration: none;
+
+    color: var(--color-font-branco);
+}
+
+main .conteudo-cadastro .ajuda img{
+    margin-top: 30px;
+}
+
+main .conteudo-cadastro .form-conjunto form .linha{
+    margin-top: 26px;
+}
+
+main .conteudo-cadastro .form-conjunto form hr{
+    background-color: var(--color-hr-cinza);
+
+    width: 326px;
+    margin: auto;
+}
+
+main .conteudo-cadastro .form-conjunto form{
+    background-color: var(--color-card-branco);
+
+    width: 400px;
+    height: 880px;
+
+    border-radius: 20px;
+
+    margin: auto;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+main .conteudo-cadastro .form-conjunto form h3{
+    font: 700 1.6rem 'Inter';
+    margin-top: 37px;
+    padding-left: 32px;
+
+}
+
+main .conteudo-cadastro .form-conjunto form .input-cadastro{
+    margin: auto;
+}
+
+main .conteudo-cadastro .form-conjunto form .input-cadastro input{
+    background-color: var(--color-input-cinza);
+
+    margin: 20px 0px 0px 32px;
+
+    border-radius: 4px 4px 0px 0px;
+    border: 0;
+}
+
+main .conteudo-cadastro .form-conjunto form .input-cadastro .input-central{
+    width: 327px;
+    height: 54px;
+}
+
+main .conteudo-cadastro .form-conjunto form .input-cadastro .input-primaria-1{
+    width: 94px;
+    height: 54px;
+}
+
+main .conteudo-cadastro .form-conjunto form .input-cadastro .input-primaria-2{
+    width: 199px;
+    height: 54px;
+}
+
+main .conteudo-cadastro .form-conjunto form .input-cadastro input::placeholder {
+    font: 500 1.4rem 'Roboto';
+    color: var(--color-font-preto-form);
+
+    padding: 10px;
+}
+
+main .conteudo-cadastro .form-conjunto form .cadastrar{
+    margin: 32px;
+}
+
+main .conteudo-cadastro .form-conjunto form button{
+    background-color: var(--color-btn-roxo);
+    color: var(--color-font-branco);
+
+    width: 326px;
+    height: 44px;
+
+    border-radius: 5px;
+    border: 0;
+}
+
+
+

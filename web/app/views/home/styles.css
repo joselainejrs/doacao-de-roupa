@@ -1,33 +1,117 @@
-main .content-home {
+main .conteudo-home {
     width: 1181px;
     margin: auto;
 }
 
-main .content-home .campo-ajuda {
+main .conteudo-home .campo-ajuda {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5rem;
+    margin: 50px 0px 50px 0px;
 }
 
-main .content-home .ajuda {
+main .conteudo-home .campo-ajuda .ajuda {
     color: var(--color-font-verde-claro);
 
-    font: 700 1.4rem 'Poppins';
-
+    font: 300 1.4rem 'Inter';
 }
 
-main .content-home .btn-ajuda {
+main .conteudo-home .campo-ajuda .ajuda .btn-ajuda-fundo {
     border-radius: 5px;
 
     background-color: var(--color-btn-verde);
-    color: var(--color-font-branco);
-    
-    width: 159px;
-    height: 44px;
-    margin-top: 10px;
+
+    width: 11rem;
+    height: 3rem;
+    padding: 6px;
+    margin-top: 8px;
+
+
+    text-align: center;
 }
 
-main .content-home img {
+main .conteudo-home .campo-ajuda .ajuda .btn-ajuda-fundo a {
+    text-decoration: none;
+
+    color: var(--color-font-branco);
+}
+
+main .conteudo-home .campo-ajuda .img-ajuda {
     width: 30rem;
 }
+
+main .conteudo-home .acao{
+    margin: auto; 
+    
+    color: var(--color-font-preto);
+
+    width: 40rem;
+
+    text-align: center;
+}
+
+main .conteudo-home .acao hr{
+    width: 10rem;
+    height: 5px;
+
+    border-radius: 5px;
+
+    background-color: var(--color-btn-verde);
+
+    margin: auto;
+
+}
+
+main .conteudo-home .acao .titulo-acao{
+    font: 700 1.4rem 'Poppins';
+    margin: 40px 0px 0px 0px;
+
+}
+
+main .conteudo-home .acao .txt-acao{
+    font: 300 14px 'Inter';
+    margin: 20px 0px 40px 0px;
+}
+
+main .conteudo-home .campanhas .titulo-campanhas{
+    font: 700 1.4rem 'Poppins';
+    margin: 60px 0px 60px 0px;
+
+    text-align: center;
+}
+
+main .conteudo-home .campanhas .card-campanhas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+footer{
+    background-color: var(--color-barra-secondary);
+
+    margin-top: 20rem;
+
+    font: 500 12px 'Inter';
+
+}
+
+footer .barra-espaco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1016px;
+    height: 154px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+footer .barra-espaco .txt-info-barra p{
+    margin: 5px;
+}
+
+
+
+

@@ -23,29 +23,64 @@
                         <img src="assets/img/logo-maior.png" alt="Logo">
                     </div>
                     <div>
-                        <form>
+                        <form action="">
                             <h3>Cadastro de ONG</h3>
 
-                            <div class="linha"><hr></div>
-
-                            <div class="input-cadastro">
-                                <h3>Dados</h3>
-
-                                <input type="text" class="input-central" id="fname" name="fname" placeholder="Nome da Ong">
-                                <input type="text" class="input-central" id="lname" name="lname" placeholder="E-mail">
-                                <input type="text" class="input-central" id="lname" name="lname" placeholder="Senha">
+                            <div class="linha">
+                                <hr>
                             </div>
 
-                            <div class="linha"><hr></div>
+                            <div class="input-cadastro">
+                                <legend>
+                                    <h3>Dados</h3>
+                                </legend>
+
+                                <input type="name" class="input-central" id="nome" name="nome"
+                                    placeholder="Nome da Ong">
+                                <input type="text" class="input-central" id="email" name="email" placeholder="E-mail">
+                                <input type="text" class="input-central" id="senha" name="senha" placeholder="Senha">
+                            </div>
+
+                            <div class="linha">
+                                <hr>
+                            </div>
 
                             <div class="input-cadastro">
-                                <h3>Endereço</h3>
+                                <legend>
+                                    <h3>Endereço</h3>
+                                </legend>
 
-                                <input type="text" class="input-central" id="fname" name="fname" placeholder="CEP">
-                                <input type="text" class="input-central" id="lname" name="lname" placeholder="Rua">
-                                <input type="text" class="input-central" id="lname" name="lname" placeholder="Bairro">
-                                <input type="text" class="input-primaria-1" id="lname" name="lname" placeholder="Nº">
-                                <input type="text" class="input-primaria-2" id="lname" name="lname" placeholder="Cidade">
+                                <input 
+                                    type="text" 
+                                    class="input-central" 
+                                    id="cep" 
+                                    name="cep" 
+                                    placeholder="CEP"
+                                    ui-br-cep-mask>
+                                <input 
+                                    type="text" 
+                                    class="input-central" 
+                                    id="logradouro" 
+                                    name="logradouro" 
+                                    placeholder="Logradouro">
+                                <input 
+                                    type="text" 
+                                    class="input-central" 
+                                    id="bairro" 
+                                    name="bairro" 
+                                    placeholder="Bairro">
+                                <input 
+                                    type="text" 
+                                    class="input-primaria-1" 
+                                    id="numero" 
+                                    name="numero" 
+                                    placeholder="Nº">
+                                <input 
+                                    type="text" 
+                                    class="input-primaria-2" 
+                                    id="localidade" 
+                                    name="localidade"
+                                    placeholder="Cidade">
                             </div>
                             <div class="cadastrar">
                                 <button type="submit">cadastrar</button>

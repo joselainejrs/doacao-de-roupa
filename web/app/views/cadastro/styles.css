@@ -97,6 +97,8 @@ main .conteudo-cadastro form .input-cadastro input{
     padding-left: 10px;
 
     box-sizing: border-box;
+
+    cursor: pointer;
 }
 
 main .conteudo-cadastro form .input-cadastro .input-central{
@@ -113,10 +115,10 @@ main .conteudo-cadastro form .input-cadastro .input-primaria-2{
     width: 199px;
     height: 54px;
 }
-main .conteudo-cadastro form .input-cadastro textarea:focus, input:focus {
+/* main .conteudo-cadastro form .input-cadastro textarea:focus, input:focus, select:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-}
+} */
 
 main .conteudo-cadastro form .input-cadastro input::placeholder {
     font: 500 1.4rem 'Roboto';

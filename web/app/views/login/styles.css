@@ -90,10 +90,10 @@ main .conteudo-login form .input-login input{
     box-sizing: border-box;
 }
 
-main .conteudo-login form .input-login textarea:focus, input:focus {
+/* main .conteudo-login form .input-login textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
-}
+} */
 
 main .conteudo-login form .input-login input::placeholder {
     font: 500 1.4rem 'Roboto';
@@ -149,4 +149,6 @@ main .conteudo-login form .cadastramento .link a{
 
     text-decoration: none;
 }
+
+
 

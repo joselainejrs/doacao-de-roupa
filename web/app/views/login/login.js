@@ -2,6 +2,6 @@
 
 angular.module('myApp.views.login', ['ngRoute'])
 
-.controller('LoginController', [function() {
+.controller('LoginController', [function($rootScope) {
 
 }]);

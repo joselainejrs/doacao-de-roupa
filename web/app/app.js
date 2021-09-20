@@ -10,7 +10,7 @@ angular.module('myApp', [
   'myApp.diretiva.card',
   'myApp.version'
 ]).
-config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
+config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider, $rootScope, $route, $routeParams, $location) {
   $locationProvider.hashPrefix('!');
 
   $routeProvider.when('/home', {
@@ -46,6 +46,7 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
 .directive('barDirective', [function (){
     return{
         templateUrl: 'diretiva/bar/bar.html'
-    };
+    }
+
 }]);
 

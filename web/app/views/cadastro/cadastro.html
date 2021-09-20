@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="views/cadastro/styles.css">
 </head>
 
-<body>
+<body ng-wiew>
     <div>
         <div id="container-cadastro">
             <main>
@@ -23,7 +23,7 @@
                         <img src="assets/img/logo-maior.png" alt="Logo">
                     </div>
                     <div>
-                        <form action="">
+                        <form>
                             <h3>Cadastro de ONG</h3>
 
                             <div class="linha">
@@ -35,10 +35,26 @@
                                     <h3>Dados</h3>
                                 </legend>
 
-                                <input type="name" class="input-central" id="nome" name="nome"
-                                    placeholder="Nome da Ong">
-                                <input type="text" class="input-central" id="email" name="email" placeholder="E-mail">
-                                <input type="text" class="input-central" id="senha" name="senha" placeholder="Senha">
+                                <input 
+                                    type="text" 
+                                    class="input-central" 
+                                    id="nome" name="nome"
+                                    placeholder="Nome da Ong"
+                                    required>
+                                <input 
+                                    type="email" 
+                                    class="input-central" 
+                                    id="email" 
+                                    name="email" 
+                                    placeholder="E-mail"
+                                    required>
+                                <input 
+                                    type="text" 
+                                    class="input-central" 
+                                    id="senha" 
+                                    name="senha" 
+                                    placeholder="Senha"
+                                    required>
                             </div>
 
                             <div class="linha">
@@ -56,34 +72,39 @@
                                     id="cep" 
                                     name="cep" 
                                     placeholder="CEP"
-                                    ui-br-cep-mask>
+                                    ui-br-cep-mask
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-central" 
                                     id="logradouro" 
                                     name="logradouro" 
-                                    placeholder="Logradouro">
+                                    placeholder="Logradouro"
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-central" 
                                     id="bairro" 
                                     name="bairro" 
-                                    placeholder="Bairro">
+                                    placeholder="Bairro"
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-primaria-1" 
                                     id="numero" 
                                     name="numero" 
-                                    placeholder="Nº">
+                                    placeholder="Nº"
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-primaria-2" 
                                     id="localidade" 
                                     name="localidade"
-                                    placeholder="Cidade">
+                                    placeholder="Cidade"
+                                    required>
                             </div>
                             <div class="cadastrar">
-                                <button type="submit">cadastrar</button>
+                                <button type="submit" ng-click="save()">cadastrar</button>
                             </div>
                         </form>
                     </div>

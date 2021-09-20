@@ -76,7 +76,7 @@ main .conteudo-login form .input-login input{
 
     background-color: var(--color-input-cinza);
 
-    margin: 20px 0px 0px 32px;
+    margin: 30px 0px 0px 32px;
 
     border-radius: 4px 4px 0px 0px;
     border: 0;
@@ -113,39 +113,42 @@ main .conteudo-login form .cadastramento .opcao{
     margin: 0px 0px 30px 0px;
     text-align: center;
 }
-main .conteudo-login form .cadastramento .cadastro-conta{
-    display: flex;
-    align-items: center;
+/* button:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}  */
+
+main .conteudo-login form .login-cadastramento .login{
+    margin-left: px;
+    margin: 40px 0px 0px 37px;
+
+    
+}
+
+main .conteudo-login form .login-cadastramento button{
+    font: 700 2rem 'Roboto';
 
     background-color: var(--color-btn-azul);
+    color: var(--color-font-branco);
 
     width: 317px;
     height: 44px;
 
-    margin: auto;
+    border-radius: 5px;
+    border: 0;
 
-    padding-left:50px;
-
-    border-radius: 2px;
-
+    cursor: pointer;
 }
 
-main .conteudo-login form .cadastramento .cadastro-conta p{
-    font: 700 1rem 'Roboto';
-    color: var(--color-card-branco);
-
-    margin-left: 20px;
-}
-
-main .conteudo-login form .cadastramento .link{
+main .conteudo-login form .login-cadastramento .link{
     padding: 30px 0px 0px 0px;
 }
 
-main .conteudo-login form .cadastramento .link a{
+main .conteudo-login form .login-cadastramento .link a{
     font: 700 1.2rem 'Roboto';
     color: var(--color-font-azul);
 
-    padding: 30px 0px 0px 145px;
+    padding: 40px 0px 0px 145px;
 
     text-decoration: none;
 }

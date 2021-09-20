@@ -31,17 +31,20 @@
     padding-top: 11px;
 }
 
-#container-bar nav ul .btn-login{
+#container-bar nav ul button{
+    font: 300 1rem 'Inter';
+
     background: var(--color-btn-roxo);
     color: var(--color-font-branco);
 
-    border-radius: 5px;
     width: 104px;
     height: 30px;
     padding: 5px;
-    text-align: center;
+    /* text-align: center; */
 
-    font: 300 1rem 'Inter';
+    border-radius: 5px;
+    border: 0;
 
+    cursor: pointer;
 }
 

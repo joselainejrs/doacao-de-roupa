@@ -3,11 +3,12 @@
 angular.module('myApp.diretiva.bar', ['ngRoute'])
 
 
-.controller('BarController', [function($scope, $location) {
+.controller('BarController', ['$scope','$location', function($scope, $location) {
 
-    // $scope.direcioneLogin = function (){
-    //     $location.path('/login');
-    // }
+    $scope.direcione = function (){
+        $location.path('/#!/login');
+        // window.location.replace('/#!/login');
 
+    }
 
 }]);

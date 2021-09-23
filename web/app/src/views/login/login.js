@@ -1,15 +1,18 @@
 'use strict';
 
-angular.module('myApp.views.login', ['ngRoute'])
+angular.module('myApp.src.views.login', ['ngRoute'])
 
     .controller('LoginController', ["$scope", function ($scope) {
-        if (localStorage.email) {
-            document.getElementById('email').value = localStorage.email;
-        }
-        if (localStorage.senha) {
-            document.getElementById('senha').value = localStorage.senha;
-        }
 
+        //icon que exibe ou não a senha
+        $scope.icon = function () {
+            var tipo = document.getElementById("senha");
+            if (tipo.type == "password") {
+                tipo.type = "text"
+            } else {
+                tipo.type = "password"
+            }
+        }
         //INICIO
 
         // criação de alerta se caso não for preenchido os campos
@@ -61,10 +64,23 @@ angular.module('myApp.views.login', ['ngRoute'])
         //ação do submit
         document.querySelector("form")
             .addEventListener("submit", e => {
-                console.log("enviar p formulario")
+
                 //não envia o formulario
                 e.preventDefault()
-            })
 
+                if (localStorage.email) {
+                    document.getElementById('email').value = localStorage.email;
+                }
+                if (localStorage.senha) {
+                    document.getElementById('senha').value = localStorage.senha;
+                }
+
+                Swal.fire({
+                    title: 'Login realizado com sucesso!',
+                    html:
+                        '<img src="assets/img/logoBar.png" alt="Logo"/>',
+                });
+
+            })
         //FIM
     }]);

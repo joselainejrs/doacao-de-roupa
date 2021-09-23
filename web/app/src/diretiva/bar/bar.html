@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="src/diretiva/bar/sytles.css">
+</head>
+
+<body ng-wiew>
+    <div ng-controller="MenuController">
+        <div id="container-bar">
+            <nav>
+                <img class="img-logo" ng-src="assets/img/logoBar.png" alt="Logo" />
+                <ul>
+                    <li><a href="#" class="txtbar">como ajudar?</a></li>
+                    <li><a href="#campanhas" class="txtbar">campanhas ativas</a></li>
+                    <li class="btn-login">
+                        <button ng-click="direcione()">login</button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -89,7 +89,9 @@ main .conteudo-login form .input-login input{
 
     box-sizing: border-box;
 }
-
+/* main .conteudo-login form .input-login input.invalid{
+    border: 2px solid red;
+} */
 /* main .conteudo-login form .input-login textarea:focus, input:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
@@ -99,6 +101,15 @@ main .conteudo-login form .input-login input::placeholder {
     font: 500 1.4rem 'Roboto';
     color: var(--color-font-preto-form);
 }
+
+main .conteudo-login form .input-login .img-exibe{
+    position: relative;
+    right: 40px;
+    top: 5px;
+    
+    cursor: pointer;
+}
+
 
 main .conteudo-login form .esqueci-senha{
     font: 300 0.9rem 'Roboto';
@@ -118,14 +129,14 @@ main .conteudo-login form .cadastramento .opcao{
     outline: 0;
 }  */
 
-main .conteudo-login form .login-cadastramento .login{
+main .conteudo-login form .login .btn-login{
     margin-left: px;
     margin: 40px 0px 0px 37px;
 
     
 }
 
-main .conteudo-login form .login-cadastramento button{
+main .conteudo-login form .login button{
     font: 700 2rem 'Roboto';
 
     background-color: var(--color-btn-azul);
@@ -140,11 +151,11 @@ main .conteudo-login form .login-cadastramento button{
     cursor: pointer;
 }
 
-main .conteudo-login form .login-cadastramento .link{
-    padding: 30px 0px 0px 0px;
+main .conteudo-login form .link{
+    padding: 25px 0px 0px 0px;
 }
 
-main .conteudo-login form .login-cadastramento .link a{
+main .conteudo-login form .link a{
     font: 700 1.2rem 'Roboto';
     color: var(--color-font-azul);
 

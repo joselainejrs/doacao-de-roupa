@@ -21,6 +21,7 @@
   --color-card-branco: #FFFFFF;
   /* input */
   --color-input-cinza: #E9E9E9;
+  --color-input-vermelho: red;
   /* hr */
   --color-hr-cinza: #C4C4C4
 ;
@@ -48,7 +49,5 @@ html,body, #root{
 @media(min-width: 700px){
   :root{
       font-size:62.5%;
-  }
-
-  
+  }  
 }

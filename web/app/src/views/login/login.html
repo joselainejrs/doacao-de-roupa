@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="views/login/styles.css">
+    <link rel="stylesheet" href="src/views/login/styles.css">
 </head>
 
 <body ng-view>
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                     <div>
-                        <form>
+                        <form name="formulario">
                             <h3>Olá</h3>
                             <h3>bem vindo de volta</h3>
                             <div class="input-login">
@@ -33,26 +33,32 @@
                                     placeholder="E-mail"
                                     required>
 
-                                <input 
-                                    type="text" 
-                                    id="senha" 
-                                    name="senha" 
-                                    placeholder="Senha"
-                                    required>                                
+                               <div>
+                                    <input 
+                                        type="password" 
+                                        id="senha" 
+                                        name="senha" 
+                                        placeholder="Senha"
+                                        required>
+                                    <img  
+                                        class="img-exibe" 
+                                        ng-src="assets/icon/exiba.png" 
+                                        alt="Exibe" 
+                                        ng-click="icon()">
+                               </div>
                             </div>
-                            
+
                             <p class="esqueci-senha">esqueci minha senha</p>
 
-                            <div class="login-cadastramento">
-                                <div class="login">
-                                    <button type="submit" ng-click="validation()">Entrar</button>
-                                </div>
-
-                                <div class="link">
-                                    <a href="/#!cadastro">cadastre por email</a>
+                            <div class="login">
+                                <div class="btn-login">
+                                    <button type="submit" ng-disabled="checked" ng-click="entrar()">Entrar</button>
                                 </div>
                             </div>
-                          </form>
+                            <div class="link">
+                                <a href="/#!cadastro">cadastre por email</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </main>

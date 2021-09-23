@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.diretiva.card module', function() {
+describe('myApp.src.diretiva.card module', function() {
 
-  beforeEach(module('myApp.diretiva.card'));
+  beforeEach(module('myApp.src.diretiva.card'));
 
   describe('card controller', function(){
 

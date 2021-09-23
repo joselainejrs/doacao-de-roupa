@@ -1,12 +1,12 @@
 'use strict';
 
-angular.module('myApp.views.home', ['ngRoute',])
+angular.module('myApp.src.views.home', ['ngRoute',])
 
 
 // tela de card
 .directive('cardDirective', [function (){
     return{
-        templateUrl: 'diretiva/card/card.html'
+        templateUrl: 'src/diretiva/card/card.html'
     };
 }])
 

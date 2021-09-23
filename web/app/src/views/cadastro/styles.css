@@ -125,6 +125,14 @@ main .conteudo-cadastro form .input-cadastro input::placeholder {
     color: var(--color-font-preto-form);
 }
 
+main .conteudo-cadastro form .img-exibe{
+    position: relative;
+    right: 40px;
+    top: 5px;
+    
+    cursor: pointer;
+}
+
 main .conteudo-cadastro form .cadastrar{
     margin: 33px;
 }

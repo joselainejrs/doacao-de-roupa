@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.views.cadastro module', function() {
+describe('myApp.src.views.cadastro module', function() {
 
-  beforeEach(module('myApp.views.cadastro'));
+  beforeEach(module('myApp.src.views.cadastro'));
 
   describe('cadastro controller', function(){
 

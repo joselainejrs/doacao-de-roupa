@@ -1,8 +1,8 @@
 'use strict';
 
-describe('myApp.views.home module', function() {
+describe('myApp.src.views.home module', function() {
 
-  beforeEach(module('myApp.views.home'));
+  beforeEach(module('myApp.src.views.home'));
 
   describe('home controller', function(){
 

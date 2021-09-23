@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
-    <link rel="stylesheet" href="views/cadastro/styles.css">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="src/views/cadastro/styles.css">
+    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+
 </head>
 
-<body ng-wiew>
-    <div>
+<body>
+    <div ng-controller="CadastroController">
         <div id="container-cadastro">
             <main>
                 <div class="conteudo-cadastro">
@@ -38,23 +40,37 @@
                                 <input 
                                     type="text" 
                                     class="input-central" 
-                                    id="nome" name="nome"
+                                    id="nome" 
+                                    ng-model="nome"
+                                    name="nome"
                                     placeholder="Nome da Ong"
-                                    required>
+                                    required
+                                    ng-change="validaCampo()">
                                 <input 
                                     type="email" 
                                     class="input-central" 
                                     id="email" 
                                     name="email" 
+                                    ng-model="email"
                                     placeholder="E-mail"
-                                    required>
-                                <input 
-                                    type="text" 
-                                    class="input-central" 
-                                    id="senha" 
-                                    name="senha" 
-                                    placeholder="Senha"
-                                    required>
+                                    required
+                                    ng-change="validaCampo()">
+                                <div>
+                                    <input 
+                                        type="password" 
+                                        class="input-central" 
+                                        id="senha" 
+                                        ng-model="senha"
+                                        name="senha" 
+                                        placeholder="Senha"
+                                        required
+                                        ng-change="validaCampo()">
+                                    <img  
+                                        class="img-exibe" 
+                                        src="assets/icon/exiba.png" 
+                                        alt="Exibe" 
+                                        ng-click="icon()">
+                                </div>
                             </div>
 
                             <div class="linha">
@@ -72,39 +88,50 @@
                                     id="cep" 
                                     name="cep" 
                                     placeholder="CEP"
+                                    ng-model="cep"
                                     ui-br-cep-mask
-                                    required>
+                                    required
+                                    ng-pattern="/^[0-9]*$/"
+                                    ng-change="validaCampo()">
                                 <input 
                                     type="text" 
                                     class="input-central" 
                                     id="logradouro" 
                                     name="logradouro" 
+                                    ng-model="logradouro"
                                     placeholder="Logradouro"
-                                    required>
+                                    required
+                                    ng-change="validaCampo()">
                                 <input 
                                     type="text" 
                                     class="input-central" 
                                     id="bairro" 
+                                    ng-model="bairro"
                                     name="bairro" 
                                     placeholder="Bairro"
-                                    required>
+                                    required
+                                    ng-change="validaCampo()">
                                 <input 
                                     type="text" 
                                     class="input-primaria-1" 
                                     id="numero" 
+                                    ng-model="numero"
                                     name="numero" 
                                     placeholder="Nº"
-                                    required>
+                                    required
+                                    ng-change="validaCampo()">
                                 <input 
                                     type="text" 
                                     class="input-primaria-2" 
                                     id="localidade" 
+                                    ng-model="localidade"
                                     name="localidade"
                                     placeholder="Cidade"
-                                    required>
+                                    required
+                                    ng-change="validaCampo()">
                             </div>
                             <div class="cadastrar">
-                                <button type="submit" ng-click="save()">cadastrar</button>
+                                <button type="submit" id="mensagem" ng-click="save()" ng-disabled="disabledButton">cadastrar</button>
                             </div>
                         </form>
                     </div>

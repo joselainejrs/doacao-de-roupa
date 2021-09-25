@@ -16,28 +16,32 @@ main .conteudo-home .campo-ajuda .ajuda {
     font: 300 1.4rem 'Inter';
 }
 
-main .conteudo-home .campo-ajuda .ajuda .btn-ajuda-fundo {
+main .conteudo-home .campo-ajuda .ajuda button {
     border-radius: 5px;
 
     background-color: var(--color-btn-verde);
+    color: var(--color-font-branco);
+
 
     width: 11rem;
     height: 3rem;
     padding: 6px;
     margin-top: 8px;
 
+    border: 0;
 
     text-align: center;
+
+    cursor: pointer;
 }
 
-main .conteudo-home .campo-ajuda .ajuda .btn-ajuda-fundo a {
-    text-decoration: none;
-
-    color: var(--color-font-branco);
+main .conteudo-home .campo-ajuda .ajuda button:hover {
+    background-color: var(--color-btn-verde-escuro);
 }
+
 
 main .conteudo-home .campo-ajuda .img-ajuda {
-    width: 30rem;
+    width: 48rem;
 }
 
 main .conteudo-home .acao{
@@ -89,7 +93,7 @@ main .conteudo-home .campanhas .card-campanhas{
 footer{
     background-color: var(--color-barra-secondary);
 
-    margin-top: 20rem;
+    margin-top: 10rem;
 
     font: 500 12px 'Inter';
 

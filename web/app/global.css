@@ -11,14 +11,19 @@
   --color-font-branco: #FFFFFF; 
   --color-font-preto: #000000;
   --color-font-preto-form: #302F2F;
+  --color-font-verde: #078080;
   --color-font-verde-claro: #5DC5C5;
   /* button */
   --color-btn-verde: #078080;
+  --color-btn-verde-escuro:#066363;
   --color-btn-roxo: #7433FF;
+  --color-btn-roxo-escuro: #5c23d6;
   --color-btn-azul: #0261FF;
   /* card */
   --color-card-laranja: #FFD6A5;
+  --color-card-verde: #078080;
   --color-card-branco: #FFFFFF;
+
   /* input */
   --color-input-cinza: #E9E9E9;
   --color-input-vermelho: red;

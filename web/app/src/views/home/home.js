@@ -2,8 +2,7 @@
 
 angular.module('myApp.src.views.home', ['ngRoute',])
 
-
-// tela de card
+// componente da tela do  card
 .directive('cardDirective', [function (){
     return{
         templateUrl: 'src/diretiva/card/card.html'
@@ -11,6 +10,11 @@ angular.module('myApp.src.views.home', ['ngRoute',])
 }])
 
 // controller da home
-.controller('HomeController', [function() {
+.controller('HomeController', ['$scope', '$location', function($scope, $location) {
+
+    $scope.direcione = function(){
+        $location.path('/queroAjudar');
+        // window.location.replace('/#!/login');
+    }
 
 }]);

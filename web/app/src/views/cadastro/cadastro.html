@@ -53,6 +53,7 @@
                                     name="email" 
                                     ng-model="email"
                                     placeholder="E-mail"
+                                    ng-blur="validaConteudo('email')"
                                     required
                                     ng-change="validaCampo()">
                                 <div>
@@ -91,8 +92,8 @@
                                     ng-model="cep"
                                     ui-br-cep-mask
                                     required
-                                    ng-pattern="/^[0-9]*$/"
-                                    ng-change="validaCampo()">
+                                    ng-change="validaCampo(); retiraCaracteres()">
+                                    
                                 <input 
                                     type="text" 
                                     class="input-central" 

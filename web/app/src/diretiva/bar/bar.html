@@ -12,16 +12,20 @@
 <body ng-wiew>
     <div ng-controller="MenuController">
         <div id="container-bar">
-            <nav>
-                <img class="img-logo" ng-src="assets/img/logoBar.png" alt="Logo" />
-                <ul>
-                    <li><a href="#" class="txtbar">como ajudar?</a></li>
-                    <li><a href="#campanhas" class="txtbar">campanhas ativas</a></li>
-                    <li class="btn-login">
-                        <button ng-click="direcione()">login</button>
-                    </li>
-                </ul>
-            </nav>
+            <div class="conteudo-bar">
+                <nav>
+                    <div>
+                        <img class="img-logo" ng-src="assets/img/logoBar.png" alt="Logo" />
+                    </div>
+                    <ul>
+                        <li><a href="#!/comoAjudar" class="txtbar">como ajudar?</a></li>
+                        <li><a href="#campanhas" class="txtbar">campanhas ativas</a></li>
+                        <li class="btn-login">
+                            <button ng-click="direcione()">login</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
 </body>

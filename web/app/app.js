@@ -6,6 +6,7 @@ angular.module('myApp', [
   'myApp.src.views.home',
   'myApp.src.views.login',
   'myApp.src.views.cadastro',
+  'myApp.src.views.comoAjudar',
   'myApp.src.diretiva.bar',
   'myApp.src.diretiva.card',
   'myApp.version'
@@ -22,6 +23,11 @@ config(['$locationProvider', '$routeProvider', function($locationProvider, $rout
     templateUrl: 'src/views/cadastro/cadastro.html',
     controllerAS:'wm',
     controller: 'CadastroController'
+  }),
+  $routeProvider.when('/comoAjudar', {
+    templateUrl: 'src/views/comoAjudar/comoAjudar.html',
+    controllerAS:'wm',
+    controller: 'ComoAjudarController'
   }),
   $routeProvider.when('/login', {
     templateUrl: 'src/views/login/login.html',

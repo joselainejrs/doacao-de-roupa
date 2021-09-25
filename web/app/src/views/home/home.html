@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="src/views/home/styles.css">
 </head>
 
-<body>
-    <div>
+<body ng-wiew>
+    <div ng-controller="HomeController">
         <div id="container-home">
             <main>
                 <div class="conteudo-home">
@@ -19,7 +19,7 @@
                             <h4>Faça parte desssa força</h4>
                             <h4>#AjudeQuemPrecisa</h4>
                             <div class="btn-ajuda-fundo">
-                                <a href="#" class="btn-ajuda">quero ajudar</a>
+                                <button class="btn-ajuda" ng-click="direcione()">quero ajudar</button>
                             </div>
                         </div>
                         <div>

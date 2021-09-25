@@ -8,7 +8,7 @@ angular.module('myApp.src.views.cadastro', ['ngRoute'])
 
         $scope.disabledButton = true;
 
-        $scope.nome = document.getElementById('nome').value,
+            $scope.nome = document.getElementById('nome').value,
             $scope.email = document.getElementById('email').value,
             $scope.senha = document.getElementById('senha').value,
             $scope.cep = document.getElementById('cep').value,
@@ -17,9 +17,10 @@ angular.module('myApp.src.views.cadastro', ['ngRoute'])
             $scope.numero = document.getElementById('numero').value,
             $scope.localidade = document.getElementById('localidade').value,
             $scope.mensagem = document.getElementById('mensagem').style.backgroundColor = 'grey';
+        
 
         //icon que exibe ou não a senha
-        $scope.icon = function () {
+        $scope.icon = function() {
             var tipo = document.getElementById("senha");
             if (tipo.type == "password") {
                 tipo.type = "text"
@@ -39,11 +40,6 @@ angular.module('myApp.src.views.cadastro', ['ngRoute'])
         }
         cepSelect.addEventListener('blur', (e) => {
 
-            
-            // if(!checkchar(e)){
-            //     e.preventDefault
-            // }
-
             // passando os valores para pega a API de CEP
             let cep = cepSelect.value.replace("-", "")
             const options = {
@@ -61,14 +57,48 @@ angular.module('myApp.src.views.cadastro', ['ngRoute'])
         });
         //FIM da chamada de Api de CEP
 
-        //evitar caracteres especias digitados
-        // function checkchar(e){
-            
-        //     const formataCep = String.fromCharCode(e.keyCode);
-   
-        //     pattern = '[0-9]+$'
+        //valida input se o preencimento estiver vazio
+        $scope.validaConteudo = function(id){
+            debugger
+            let content = document.getElementById(id);
 
-        //     if(char.match(pattern)){
+            if(content.value){
+                content.style.border = 0;
+            }else{
+                content.style.borderColor = 'red';
+            }
+            console.log()
+        }
+
+        //evitar caracteres especias digitados
+        // $scope.retiraCaracteres = function () {
+        //     // debugger
+        //     let mudaEstilo = document.getElementById('cep');
+        //     mudaEstilo.style.color = red;
+        //     let teste = document.querySelector('#cep');
+        //     teste.addEventListener('keypress', (teste) =>{
+
+        //         console.log(teste);
+
+        //         checkchar(teste)
+        //     })
+
+        //     // if (!checkchar(e)) {
+        //     //     // e.preventDefault
+        //     // }
+        // }
+
+
+        // function checkchar(teste) {
+
+        //     const formataCep = String.fromCharCode(teste.keyCode);
+
+        //     // console.log(teste.keyCode);
+        //     // console.log(formataCep);
+
+        //     const pattern = '[0-9]+$'
+
+        //     if (formataCep.match(pattern)) {
         //         console.log(formataCep);
         //         return true;
         //     }
@@ -93,7 +123,6 @@ angular.module('myApp.src.views.cadastro', ['ngRoute'])
                 $scope.mensagem = document.getElementById('mensagem').style.backgroundColor = '#7433FF';
             }
         }
-
 
         //INICIO salvar dados no localStorage
         $scope.save = function (e) {

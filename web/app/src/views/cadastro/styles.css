@@ -61,7 +61,7 @@ main .conteudo-cadastro form{
     background-color: var(--color-card-branco);
 
     width: 400px;
-    height: 880px;
+    height: 929px;
 
     border-radius: 20px;
 
@@ -80,25 +80,6 @@ main .conteudo-cadastro form h3{
 
 main .conteudo-cadastro form .input-cadastro{
     margin: auto;
-}
-
-main .conteudo-cadastro form .input-cadastro input{
-    background-color: var(--color-input-cinza);
-
-    margin: 20px 0px 0px 32px;
-
-    border-radius: 4px 4px 0px 0px;
-    border: 1px solid var(--color-input-cinza);
-
-    /* cores e espaçamento dentro do input */
-    color: var(--color-font-preto-form);
-    font: 500 1.4rem 'Roboto';
-
-    padding-left: 10px;
-
-    box-sizing: border-box;
-
-    cursor: pointer;
 }
 
 main .conteudo-cadastro form .input-cadastro .input-central{

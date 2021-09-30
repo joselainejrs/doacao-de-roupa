@@ -12,9 +12,8 @@ angular.module('myApp.src.views.home', ['ngRoute',])
 // controller da home
 .controller('HomeController', ['$scope', '$location', function($scope, $location) {
 
-    $scope.direcione = function(){
+    $scope.direcioneQueroAjudar = function(){
         $location.path('/queroAjudar');
-        // window.location.replace('/#!/login');
     }
 
 }]);

@@ -1,0 +1,95 @@
+main .conteudo-como-ajudar{
+    width: 1181px;
+    margin: auto;
+}
+
+main .conteudo-como-ajudar .acao{
+    margin: auto; 
+    
+    color: var(--color-font-preto);
+
+    width: 40rem;
+
+    text-align: center;
+
+    padding-top: 60px;
+}
+
+main .conteudo-como-ajudar .acao hr{
+    width: 10rem;
+    height: 5px;
+
+    border-radius: 5px;
+
+    background-color: var(--color-btn-verde);
+
+    margin: auto;
+}
+
+main .conteudo-como-ajudar .acao .titulo-ajuda{
+    font: 700 1.4rem 'Poppins';
+    margin: 40px 0px 0px 0px;
+}
+
+main .conteudo-como-ajudar .acao .txt-ajuda{
+    font: 300 14px 'Inter';
+    margin: 20px 0px 40px 0px;
+}
+
+main .conteudo-como-ajudar .card-forma-ajuda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+main .conteudo-como-ajudar .card-forma-ajuda .campo-forma{
+    background-color: var(--color-card-verde-claro);
+
+    border-radius: 0px 20px 20px 20px;
+
+    width: 45rem;
+    height: 13.2rem;
+
+    box-sizing: border-box;
+
+    color: var(--color-font-preto-form);
+}
+
+main .conteudo-como-ajudar .card-forma-ajuda .campo-forma .txt-forma{
+    font: 500 1.4rem 'Poppins';
+
+    margin: 25px 15px 15px 15px;
+
+}
+
+main .conteudo-como-ajudar .card-forma-ajuda .campo-forma .txt-info{
+    font: 200 1rem 'Inter';
+
+    width: 40rem;
+    
+    padding-left: 15px;
+
+}
+
+main .conteudo-como-ajudar .card-forma-ajuda .campo-forma .btn-ajudas{
+    float: right;
+    margin: 15px 30px ;
+
+    text-decoration: none;
+    font: 700 1.2rem 'Inter';
+
+    cursor: pointer;
+
+    color: var(--color-font-preto-form);
+}
+
+main .conteudo-como-ajudar .card-forma-ajuda .campo-forma .btn-ajudas:hover{
+    color: var(--color-font-preto);
+}
+
+main .conteudo-como-ajudar img{
+    margin: 5rem 0rem 0rem 30%;
+
+    width: 40rem;
+}

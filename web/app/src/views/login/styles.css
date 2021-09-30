@@ -70,33 +70,6 @@ main .conteudo-login form .input-login{
     margin: auto;
 }
 
-main .conteudo-login form .input-login input{
-    width: 327px;
-    height: 54px;
-
-    background-color: var(--color-input-cinza);
-
-    margin: 30px 0px 0px 32px;
-
-    border-radius: 4px 4px 0px 0px;
-    border: 0;
-
-    /* cores e espaçamento dentro do input */
-    color: var(--color-font-preto-form);
-    font: 500 1.4rem 'Roboto';
-
-    padding-left: 10px;
-
-    box-sizing: border-box;
-}
-/* main .conteudo-login form .input-login input.invalid{
-    border: 2px solid red;
-} */
-/* main .conteudo-login form .input-login textarea:focus, input:focus {
-    box-shadow: 0 0 0 0;
-    outline: 0;
-} */
-
 main .conteudo-login form .input-login input::placeholder {
     font: 500 1.4rem 'Roboto';
     color: var(--color-font-preto-form);

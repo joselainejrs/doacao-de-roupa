@@ -44,8 +44,9 @@
                                     ng-model="nome"
                                     name="nome"
                                     placeholder="Nome da Ong"
-                                    required
-                                    ng-change="validaCampo()">
+                                    ng-blur="validaConteudo('nome')"
+                                    ng-change="validaCampo()"
+                                    required>
                                 <input 
                                     type="email" 
                                     class="input-central" 
@@ -54,8 +55,8 @@
                                     ng-model="email"
                                     placeholder="E-mail"
                                     ng-blur="validaConteudo('email')"
-                                    required
-                                    ng-change="validaCampo()">
+                                    ng-change="validaCampo()"
+                                    required>
                                 <div>
                                     <input 
                                         type="password" 
@@ -64,8 +65,9 @@
                                         ng-model="senha"
                                         name="senha" 
                                         placeholder="Senha"
-                                        required
-                                        ng-change="validaCampo()">
+                                        ng-blur="validaConteudo('senha')"
+                                        ng-change="validaCampo()"
+                                        required>
                                     <img  
                                         class="img-exibe" 
                                         src="assets/icon/exiba.png" 
@@ -91,8 +93,9 @@
                                     placeholder="CEP"
                                     ng-model="cep"
                                     ui-br-cep-mask
-                                    required
-                                    ng-change="validaCampo(); retiraCaracteres()">
+                                    ng-blur="validaConteudo('cep')"
+                                    ng-change="validaCampo(); retiraCaracteres()"
+                                    required>
                                     
                                 <input 
                                     type="text" 
@@ -101,8 +104,9 @@
                                     name="logradouro" 
                                     ng-model="logradouro"
                                     placeholder="Logradouro"
-                                    required
-                                    ng-change="validaCampo()">
+                                    ng-blur="validaConteudo('logradouro')"
+                                    ng-change="validaCampo()"
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-central" 
@@ -110,8 +114,9 @@
                                     ng-model="bairro"
                                     name="bairro" 
                                     placeholder="Bairro"
-                                    required
-                                    ng-change="validaCampo()">
+                                    ng-blur="validaConteudo('bairro')"
+                                    ng-change="validaCampo()"
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-primaria-1" 
@@ -119,8 +124,9 @@
                                     ng-model="numero"
                                     name="numero" 
                                     placeholder="Nº"
-                                    required
-                                    ng-change="validaCampo()">
+                                    ng-blur="validaConteudo('numero')"
+                                    ng-change="validaCampo()"
+                                    required>
                                 <input 
                                     type="text" 
                                     class="input-primaria-2" 
@@ -128,8 +134,9 @@
                                     ng-model="localidade"
                                     name="localidade"
                                     placeholder="Cidade"
-                                    required
-                                    ng-change="validaCampo()">
+                                    ng-blur="validaConteudo('localidade')"
+                                    ng-change="validaCampo()"
+                                    required>
                             </div>
                             <div class="cadastrar">
                                 <button type="submit" id="mensagem" ng-click="save()" ng-disabled="disabledButton">cadastrar</button>

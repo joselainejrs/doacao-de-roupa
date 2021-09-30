@@ -15,6 +15,19 @@ angular.module('myApp.src.views.login', ['ngRoute'])
         }
         //INICIO
 
+        //valida input se o preencimento estiver vazio
+        $scope.validaConteudo = function (id) {
+            let content = document.getElementById(id);
+
+            if (content.value) {
+                content.style.border = 0;
+            } else {
+                content.style.borderColor = 'red';
+            }
+            console.log()
+        }
+        //FIM
+
         // criação de alerta se caso não for preenchido os campos
         const fields = document.querySelectorAll("[required]")
 

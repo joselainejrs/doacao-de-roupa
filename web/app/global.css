@@ -19,13 +19,17 @@
   --color-btn-roxo: #7433FF;
   --color-btn-roxo-escuro: #5c23d6;
   --color-btn-azul: #0261FF;
+  --color-btn-azul-escuro: #0c47a7;
   /* card */
   --color-card-laranja: #FFD6A5;
   --color-card-verde: #078080;
+  --color-card-verde-claro: #E7F5F5;
   --color-card-branco: #FFFFFF;
 
   /* input */
   --color-input-cinza: #E9E9E9;
+  --color-input-cinza-claro: #E5E5E5;
+
   --color-input-vermelho: red;
   /* hr */
   --color-hr-cinza: #C4C4C4
@@ -43,6 +47,26 @@
 
 html,body, #root{
   height: 100vh;
+}
+
+input, select{
+  width: 327px;
+  height: 54px;
+
+  background-color: var(--color-input-cinza);
+
+  margin: 30px 0px 0px 32px;
+
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid var(--color-input-cinza);
+
+  /* cores e espaçamento dentro do input */
+  color: var(--color-font-preto-form);
+  font: 500 1.4rem 'Roboto';
+
+  padding-left: 10px;
+
+  box-sizing: border-box;
 }
 
 #root{

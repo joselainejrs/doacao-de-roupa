@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="src/views/queroAjudar/styles.css">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
+    
+
+</head>
+
+<body>
+    <div ng-controller="QueroAjudarController">
+        <div ng-init="carregaTela" id="container-quero-ajudar">
+            <main>
+                <div class="conteudo-quero-ajudar">
+                    <div>
+                        <h3 class="titulo-ajuda">#AjudeQuemPrecisa</h3>
+                    </div>
+
+                    <div class="card-ajuda">
+                        <section class="campo-valores">
+                            <form action="" class="form-valor">
+                                <p class="titulo-descritivo">quero ajudar</p>
+
+                                <p class="radio-ajuda">
+                                    <input 
+                                        type="radio" 
+                                        id="vminino" 
+                                        name="radio-input"
+                                        [ng-model="minimo"]
+                                        ng-value="specialValue"
+                                        ng-click="valorOfertado('vminino')">
+                                    <label for="vminino">ajude com R$ 30,00</label>
+                                </p>
+                                <p class="radio-ajuda">
+                                    <input 
+                                        type="radio" 
+                                        id="vmedio" 
+                                        name="radio-input"                                     
+                                        [ng-model="medio"]
+                                        ng-value="specialValue"
+                                        ng-click="valorOfertado('vmedio')">
+                                    <label for="vmedio">ajude com R$ 45,00</label>
+                                </p>
+                                <p class="radio-ajuda">
+                                    <input 
+                                        type="radio" 
+                                        id="vmaximo" 
+                                        name="radio-input"
+                                        [ng-model="maximo"]
+                                        ng-value="specialValue"
+                                        ng-click="valorOfertado('vmaximo')">
+                                    <label for="vmaximo">ajude com R$ 60,00</label>
+                                </p>
+                                <div class="select-ajuda hide2">
+                                    <select name="select" id="select" class="input-central" >
+                                        <option value="" disabled selected>Selecione uma ONG</option>
+                                        <option value="ongs" name="radio-input">Ong 2</option>
+                                        <option value="ongs" name="radio-input" >Ong 3</option>
+                                    </select>
+                                </div>
+                                <div class="btn-contrinuicao">
+                                    <button type="submit" id="hp" ng-click="habilitarPagamento()" ng-disabled="disabledButton">doar agora</button>
+                                </div>
+                            </form>
+                        </section>
+                        <section class="campo-pagamento hide" id="campo-pagamento">
+                            <form action="" >
+                                <p class="titulo-descritivo">dados do contribuinte</p>
+                                <input 
+                                    type="text" 
+                                    class="input-central" 
+                                    id="nome" 
+                                    ng-model="nome" 
+                                    name="nome"
+                                    placeholder="Nome da Ong" 
+                                    required 
+                                    ng-change="validaCampo()">
+                                <input 
+                                    type="email" 
+                                    class="input-central" 
+                                    id="email" 
+                                    name="email" 
+                                    ng-model="email"
+                                    placeholder="E-mail" 
+                                    ng-blur="validaConteudo('email')" 
+                                    required
+                                    ng-change="validaCampo()">
+
+                                <div class="btn-contrinuicao-pagar">
+                                    <button type="submit" id="" class="pagar" ng-click="habilitarQrCodeChamada1()">pagar</button>
+                                </div>
+                            </form>
+                            <div id="qrcode">
+                            </div>
+                             <!-- condição que avalia se o qr code esta visivel -->
+                            <!-- <a href="" class="chamada2" ng-click="qrCodeChamada2()">atualizar</a>  -->
+                        </section>
+                    </div>
+                    <img class="img-doe" src="assets/img/doe.png" alt="">
+                </div>
+            </main>
+        </div>
+        <footer-directive></footer-directive>
+    </div>
+</body>
+
+</html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro</title>
-    <link rel="stylesheet" href="src/views/cadastro/styles.css">
+    <link rel="stylesheet" href="src/views/comoAjudar/styles.css">
     <link rel="stylesheet" href="sweetalert2/dist/sweetalert2.min.css">
 
 </head>
@@ -15,9 +15,46 @@
     <div ng-controller="ComoAjudarController">
         <div id="container-como-ajudar">
             <main>
-               
+                <div class="conteudo-como-ajudar">
+                    <div class="acao">
+                        <hr>
+                        <h3 class="titulo-ajuda">#AjudeQuemPrecisa</h3>
+                        <p class="txt-ajuda">sua contribbuição pode ajudar vidas, faça sua parte e ajude outras
+                            pessoas a terem mais conforto.</p>
+                        <hr>
+                    </div>
+
+                    <div class="card-forma-ajuda">
+                        <section class="campo-forma">
+                            <p class="txt-forma">forma 01</p>
+                            <p class="txt-info">se caso desejar ajudar doando dineheios também é possivel, fica a
+                                vonatde para contribuir com qualquer valor </p>
+                            <a href="#!/queroAjudar" class="btn-ajudas">quero ajudar</a>
+                        </section>
+                        <section class="campo-forma">
+                            <p class="txt-forma">forma 02</p>
+                            <p class="txt-info">temos varios centro de coleta e separação das doações, fiquem avontade
+                                para conhecer e fazer parte dessa luta também.</p>
+                            <a href="#!/" class="btn-ajudas">localiza</a>
+
+                            <!-- ao clicar mostrar o mapa -->
+                        </section>
+                    </div>
+                    <div class="card-forma-ajuda">
+                        <section class="campo-forma">
+                            <p class="txt-forma">forma 03</p>
+                            <p class="txt-info">deseja ser encontrado mais fácil e fazer parte da
+                                rede de mais 100 Ongs junto nessa força?</p>
+                            <a href="#!/cadastro" class="btn-ajudas">cadastre-se</a>
+                        </section>
+                    </div>
+
+                    <img src="assets/img/locais-doacao.png" alt="">
+
+                </div>
             </main>
         </div>
+        <footer-directive></footer-directive>
     </div>
 </body>
 

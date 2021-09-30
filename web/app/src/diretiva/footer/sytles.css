@@ -1,0 +1,25 @@
+footer{
+    background-color: var(--color-barra-secondary);
+
+    margin-top: 10rem;
+
+    font: 500 12px 'Inter';
+
+}
+
+footer .barra-espaco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1016px;
+    height: 154px;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+footer .barra-espaco .txt-info-barra p{
+    margin: 5px;
+}

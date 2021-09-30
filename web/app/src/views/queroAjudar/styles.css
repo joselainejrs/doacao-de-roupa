@@ -1,0 +1,169 @@
+main .conteudo-quero-ajudar {
+    width: 1181px;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .conteudo-quero-ajudar .titulo-ajuda {
+    font: 700 1.4rem 'Poppins';
+    margin: 5rem;
+    color: var(--color-font-preto);
+    text-align: center;
+}
+
+main .conteudo-quero-ajudar .card-ajuda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+main .conteudo-quero-ajudar .campo-valores,
+ .campo-pagamento {
+    background-color: var(--color-card-branco);
+    border-radius: 20px;
+    width: 45rem;
+    height: 50rem;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    color: var(--color-font-preto-form);
+    margin: auto;
+}
+
+main .conteudo-quero-ajudar .card-ajuda form {
+    width: 353px;
+    margin: auto;
+}
+
+main .conteudo-quero-ajudar .card-ajuda form .titulo-descritivo {
+    font: 500 2rem 'Poppins';
+    margin: 3rem 0px;
+    text-align: center;
+}
+
+main .conteudo-quero-ajudar .card-ajuda .radio-ajuda label {
+    margin: 0px 1.5rem 2.4rem;
+}
+
+main .conteudo-quero-ajudar .card-ajuda button {
+    background-color: var(--color-btn-azul);
+    color: var(--color-font-branco);
+    width: 326px;
+    height: 44px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    margin: 45px 15px 22px 33px;
+}
+main .conteudo-quero-ajudar .card-ajuda .btn-contrinuicao{
+    margin-left: -9px;
+}
+main .conteudo-quero-ajudar .card-ajuda .btn-contrinuicao-pagar{
+    margin-left: 16px;
+}
+
+main .conteudo-quero-ajudar .card-ajuda .campo-pagamento .pagar {
+    margin: 30px 15px 22px 18px;
+}
+
+main .conteudo-quero-ajudar .card-ajuda button:hover{
+    background-color: var(--color-btn-azul-escuro);
+}
+
+[type="radio"]:checked, [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -1000px;
+}
+
+[type="radio"]:checked+label, [type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 3.5rem;
+    cursor: pointer;
+    line-height: 36px;
+    display: inline-block;
+    color: var(--color-font-preto-form);
+    font: 200 2rem 'Inter';
+    margin: auto;
+}
+
+[type="radio"]:checked+label:before, [type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--color-input-cinza-claro);
+    border-radius: 100%;
+    background: var(--color-input-cinza-claro);
+}
+
+[type="radio"]:checked+label:after, [type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 16px;
+    height: 15px;
+    background: var(--color-btn-verde-escuro);
+    position: absolute;
+    top: 6.4px;
+    left: 5.5px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+main .conteudo-quero-ajudar .card-ajuda .campo-pagamento #qrcode img {
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem 0rem 0rem 37%;
+}
+
+main .conteudo-quero-ajudar .card-ajuda .campo-pagamento a {
+    margin: 0.5rem 0rem 0rem 19rem;
+    text-decoration: none;
+    font: 700 1.4rem 'Inter';
+    cursor: pointer;
+    color: var(--color-font-preto-form);
+}
+
+main .conteudo-quero-ajudar .img-doe {
+    margin: 5rem 0rem 0rem 30%;
+    width: 40rem;
+}
+
+section.campo-pagamento{
+    transition: all 100ms;
+}
+
+section.campo-pagamento.hide{
+    opacity: 0;
+    visibility: hidden;
+    width: 0;
+    margin-left: -24rem;
+
+}
+
+section.select-ajuda{
+    transition: all 100ms;
+}
+
+div.select-ajuda.hide2{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-left: -24rem;
+
+}

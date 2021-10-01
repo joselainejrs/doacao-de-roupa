@@ -5,8 +5,8 @@
 
 <h4 align="center">
 Project developed has as intention o apprenticeship from Framework AngularJS
-  the idea is a site what centralize the ONGS and that they can get donation with clothes.
 </h4>
+
 <h5 align="center">
  The idea is a site what centralize the ONGS and that they can get donation with clothes.
 </h5>

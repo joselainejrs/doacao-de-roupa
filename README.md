@@ -32,9 +32,10 @@ $ npm install --save sweetalert2
 ## Description
 
 When starting the first page and Home, what contains active campaigns from ONGs access and the option de #IWantToHelp
-<\br>
+```
+```
+
 When starting the first page and Home, what contains active campaigns from ONGs access and the option de #IWantToHelp
-<\br>
 
 ![Imagem](https://github.com/joselainejrs/acao-coletiva/blob/master/web/src/assets/capa.png)
 

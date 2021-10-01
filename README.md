@@ -1,8 +1,4 @@
 
-
-https://user-images.githubusercontent.com/55799037/135691970-adb203a9-500d-413d-96b7-4409fa211419.mp4
-
-
 <p align="center">
   <img  src="https://github.com/joselainejrs/doacao_roupa_PDI/blob/main/web/app/assets/img/logoBar.png" alt="Imagem">
 </p>

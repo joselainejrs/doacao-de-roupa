@@ -35,9 +35,9 @@ When starting the first page and Home, what contains active campaigns from ONGs 
 
 Clicking menu have the option "How to help", has 3 forms to help ONGs
 <ul>
-    <li>How to help (by payment);<li>
-    <li>Location (Open a map to Google from location of the ONGs);<li>
-    <li>Register (The ONGs can register to be found ).<li>
+    <li>How to help (by payment);
+    <li>Location (Open a map to Google from location of the ONGs);
+    <li>Register (The ONGs can register to be found ).
 <ul>
 
  

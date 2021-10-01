@@ -42,6 +42,18 @@ Clicking menu have the option "How to help", has 3 forms to help ONGs
 
 Clicking at the button "IWantToHelp", o user can you see the options from values, clicking in the RadioButton and habilitado o input para seleciona ONG what wish help the payment is by QR Code `library used is qrcode.js`
 
+To do login at the user click button what stay on the top bar. Need email is password registered.
+
+Case not tenha access the ONGS can perform the registration. 
+
+To filling in the data, exist an API that queries the address from CEP, Site `https://viacep.com.br/`.
+
+The user cadastrado, have in the data saved in localStorage, is verified at login.
+
+Case field is empty to button still disabled, when filling out, forget about a field, it has the border red.
+
+### Expected to do project
+
 ![Imagem](https://github.com/joselainejrs/acao-coletiva/blob/master/web/src/assets/capa.png)
 
 <h4 align="center">

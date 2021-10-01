@@ -15,7 +15,7 @@ Project developed has as intention o apprenticeship from Framework AngularJS
 
 #### Web
 ```
-$ C install
+$ npm install
 ```
 
 ######  Run the application
@@ -54,9 +54,13 @@ Case field is empty to button still disabled, when filling out, forget about a f
 
 ### Expected to do project
 
-![Imagem](https://github.com/joselainejrs/acao-coletiva/blob/master/web/src/assets/capa.png)
+https://user-images.githubusercontent.com/55799037/135691616-25c869b0-7397-43f0-8fde-d74f906fe103.mp4
+
 
 <h4 align="center">
 Project develop by: Joselaine Romão Soares
 </h4>
+
+
+
 

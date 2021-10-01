@@ -35,10 +35,10 @@ When starting the first page and Home, what contains active campaigns from ONGs 
 
 Clicking menu have the option "How to help", has 3 forms to help ONGs
     
-   How to help (by payment);
-   Location (Open a map to Google from location of the ONGs);
-   Register (The ONGs can register to be found ).
-    
+   - How to help (by payment);
+   - Location (Open a map to Google from location of the ONGs);
+   - Register (The ONGs can register to be found ).
+   
 
 Clicking at the button "IWantToHelp", o user can you see the options from values, clicking in the RadioButton and habilitado o input para seleciona ONG what wish help the payment is by QR Code `library used is qrcode.js`
 

@@ -33,7 +33,14 @@ $ npm install --save sweetalert2
 
 When starting the first page and Home, what contains active campaigns from ONGs access and the option de #IWantToHelp
 
-When starting the first page and Home, what contains active campaigns from ONGs access and the option de #IWantToHelp
+Clicking menu have the option "How to help", has 3 forms to help ONGs
+<ul>
+    <li>How to help (by payment);<li>
+    <li>Location (Open a map to Google from location of the ONGs);<li>
+    <li>Register (The ONGs can register to be found ).<li>
+<ul>
+
+ 
 
 ![Imagem](https://github.com/joselainejrs/acao-coletiva/blob/master/web/src/assets/capa.png)
 

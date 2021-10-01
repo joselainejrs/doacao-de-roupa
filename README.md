@@ -29,21 +29,23 @@ $ npm install --global http-server
 $ npm install --save ngx-mask
 $ npm install --save sweetalert2
 ```
-## Description
+## Description project
 
 When starting the first page and Home, what contains active campaigns from ONGs access and the option de #IWantToHelp
 
 Clicking menu have the option "How to help", has 3 forms to help ONGs
+Clicking menu have the option "How to help", has 3 forms to help ONGs
+
 <ul>
     <li>How to help (by payment);
     <li>Location (Open a map to Google from location of the ONGs);
     <li>Register (The ONGs can register to be found ).
 <ul>
   
-Clicking menu have the option "How to help", has 3 forms to help ONGs
 
 Clicking at the button "IWantToHelp", o user can you see the options from values, clicking in the RadioButton and habilitado o input para seleciona ONG what wish help the payment is by QR Code `library used is qrcode.js`
  
+Clicking menu have the option "How to help", has 3 forms to help ONGs
 
 ![Imagem](https://github.com/joselainejrs/acao-coletiva/blob/master/web/src/assets/capa.png)
 
